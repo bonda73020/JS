@@ -59,3 +59,68 @@ let book6 = {
             age:15.92}
     ]
 }
+
+
+
+let a2 = [
+    {
+        name:"user0",
+        username:"user_000",
+        password:"imthecoolestuser000",
+    },
+    {
+        name:"user1",
+        username:"user_111",
+        password:"imthecoolestuser111",
+    },
+    {
+        name:"user1",
+        username:"user_111",
+        password:"imthecoolestuser111",
+    },
+    {
+        name:"user2",
+        username:"user_222",
+        password:"imthecoolestuser222",
+    },
+    {
+        name:"user3",
+        username:"user_333",
+        password:"imthecoolestuser333",
+    },
+    {
+        name:"user4",
+        username:"user_444",
+        password:"imthecoolestuser444",
+    },
+    {
+        name:"user5",
+        username:"user_555",
+        password:"imthecoolestuser555",
+    },
+    {
+        name:"user6",
+        username:"user_666",
+        password:"imthecoolestuser666",
+    },
+    {
+        name:"user7",
+        username:"user_777",
+        password:"imthecoolestuser777",
+    },
+    {
+        name:"user8",
+        username:"user_888",
+        password:"imthecoolestuser888",
+    },
+    {
+        name:"user9",
+        username:"user_999",
+        password:"imthecoolestuser999",
+    },
+
+]
+
+for (var i = 0; i < a2.length; i++) {
+    console.log(`For user with username ${a2[i].username} password is ${a2[i].password}`);
+}
