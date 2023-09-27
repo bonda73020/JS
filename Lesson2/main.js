@@ -21,3 +21,41 @@ let book3 = {
     pageCount: 200,
     genre: "Detective novel"
 };
+
+
+
+let book4 = {
+   title: "FunnyBook",
+   pageCount: 420,
+   genre:"Comedy",
+   authors:[
+       {name:"Funny man 1",
+       age:42},
+       {name:"Funny man 2",
+           age:69}
+   ]
+}
+
+let book5 = {
+    title: "SadBook",
+    pageCount: 240,
+    genre:"Drama",
+    authors:[
+        {name:"Sad man 1",
+            age:41},
+        {name:"Sad man 2",
+            age:61}
+    ]
+}
+
+let book6 = {
+    title: "SmartBook",
+    pageCount: 999,
+    genre:"Popular science",
+    authors:[
+        {name:"Smart man 1",
+            age:31.14},
+        {name:"Smart man 2",
+            age:15.92}
+    ]
+}
