@@ -25,3 +25,10 @@ console.log(f2)
 console.log(n5)
 console.log(b1)
 console.log(b2)
+
+
+let firstNam = "Богдан"
+let middleName = "Миронець"
+let lastName = "Вікторович"
+
+console.log(middleName+" "+firstNam+ " " + lastName)
