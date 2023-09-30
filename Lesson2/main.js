@@ -124,3 +124,6 @@ let a2 = [
 for (var i = 0; i < a2.length; i++) {
     console.log(`For user with username ${a2[i].username} password is ${a2[i].password}`);
 }
+
+
+
